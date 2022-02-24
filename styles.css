@@ -113,8 +113,8 @@ a:hover{
 
 #foto-perfil{
     border-radius: 50%;
-    max-width: 30rem;
-    max-height: 30rem;
+    width: 30rem;
+    height: 30rem;
 }
 
 @media (max-width: 768px){
@@ -319,6 +319,10 @@ a:hover{
     .contenedor-proyecto, .contenedor-proyecto:nth-child(2n+1){
         flex-direction: column;
     }
+
+    .contenedor-proyecto{
+        gap: 0;
+    }
     
     .contenedor-proyecto h2 {
         font-size: 2rem;
@@ -331,6 +335,14 @@ a:hover{
     .contenedor-demo{
         width: 30rem;
         height: 20rem; 
+    }
+
+    .contenedor-demo img{
+        width: 100%;
+    }
+
+    .contenedor-proyecto-info a{
+        margin-bottom: 2rem;
     }
 
     .contenedor-proyecto-info{
