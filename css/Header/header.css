@@ -71,7 +71,18 @@
 }
 
 #foto-perfil{
-    border-radius: 50%;
+    border-radius: 15rem;
     width: 30rem;
     height: 30rem;
+}
+
+.contenedor__principal__imagen{
+    background: url("../../imagenes/perfil.jpg");
+    width: 15rem;
+    height: 15rem;
+    border: .3rem solid var(--resaltar);
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
