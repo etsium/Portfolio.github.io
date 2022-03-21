@@ -1,8 +1,8 @@
-#sobre-mi .contenedor-header{
+#sobre-mi .contenedor__header{
     background-color: var(--secundario);
 }
 
-#sobre-mi .contenedor-principal{
+#sobre-mi .contenedor__principal{
     flex-direction: column;
     align-items: flex-start;
 }

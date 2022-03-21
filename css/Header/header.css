@@ -1,4 +1,4 @@
-.contenedor-header{
+.contenedor__header{
     background-color: var(--primario);
     padding: 5rem;   
     min-height: 50rem;
@@ -9,12 +9,12 @@
 }
 
 
-.contenedor-header nav ul{
+.contenedor__header nav ul{
     display: flex;
     gap: 2rem;
 }
 
-.contenedor-menu{
+.contenedor__menu{
     display: flex;
     justify-content: space-between;
     margin: 4rem 0;
@@ -24,7 +24,7 @@
     width: 100%;
 }
 
-.contenedor-principal{
+.contenedor__principal{
     display: flex;
     align-self: center;
     align-items: center;
@@ -33,40 +33,40 @@
     width: 100%;
 }
 
-.contenedor-texto{
+.contenedor__texto{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: space-around;
 }
 
-.contenedor-resumen h1{
+.contenedor__resumen h1{
     font-size: 4rem;
 }
-.contenedor-resumen h2{
+.contenedor__resumen h2{
     font-size: 2.3rem;
 }
 
-.contenedor-redes ul{
+.contenedor__redes ul{
     display: flex;
     gap: 10rem;
 }
 
-.contenedor-redes a{
+.contenedor__redes a{
     display: flex;
     gap: 1rem;
     align-items: center;
     transition: 500ms ease-in all;
 }
 
-.contenedor-redes svg{
+.contenedor__redes svg{
     width: 3rem;
     cursor: pointer;
     fill: var(--blanco);
     transition: 500ms ease-in all;
 }
 
-.contenedor-header a:hover svg{
+.contenedor__header a:hover svg{
     fill: var(--resaltar);
 }
 

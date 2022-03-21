@@ -1,5 +1,5 @@
 @media (max-width: 1365px){
-    #formacion .contenedor-tarjeta{
+    #formacion .contenedor__tarjeta{
         max-width: 25rem;
         max-height: 25rem;
     }

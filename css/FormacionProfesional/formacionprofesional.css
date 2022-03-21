@@ -6,12 +6,12 @@
     width: 100%;
 }
 
-#proyecto .contenedor-proyecto-info h2, h3{
+#proyecto .contenedor__proyecto__info h2, h3{
     text-align: left;
     margin: 2rem 0;
 }
 
-.contenedor-proyecto{
+.contenedor__proyecto{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,11 +19,11 @@
     margin-top: 4rem;
 }
 
-.contenedor-proyecto:nth-child(2n+1){
+.contenedor__proyecto:nth-child(2n+1){
     flex-direction: row-reverse;
 }
 
-.contenedor-proyecto-info{
+.contenedor__proyecto-info{
     width: 40%;
 }
 

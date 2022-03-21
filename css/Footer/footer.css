@@ -2,7 +2,7 @@ footer{
     background-color: var(--primario);
 }
 
-.contenedor-footer h3{
+.contenedor__footer h3{
     margin: 0;
     padding: 5rem 0;
     text-align: center;

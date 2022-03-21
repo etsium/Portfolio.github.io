@@ -1,13 +1,13 @@
-#skill .contenedor-header h2{
+#skill .contenedor__header h2{
     text-align: center;
 }
 
-#skill .contenedor-principal{
+#skill .contenedor__principal{
     justify-content: center;    
     gap: 6rem;
 }
 
-.contenedor-tarjeta{
+.contenedor__tarjeta{
     width: 25rem;
     height: 25rem;
     background-color: var(--blanco);
@@ -20,22 +20,22 @@
 
 }
 
-.contenedor-tarjeta:hover{
+.contenedor__tarjeta:hover{
     outline: 0.5rem solid var(--resaltar);
     fill: var(--resaltar);
 
 }
 
-.contenedor-tarjeta:hover p{
+.contenedor__tarjeta:hover p{
     color: var(--resaltar);
 }
 
-.contenedor-tarjeta svg{
+.contenedor__tarjeta svg{
     width: 8rem;
     filter: contrast(0.5);
 }
 
-.contenedor-tarjeta p{
+.contenedor__tarjeta p{
     color: var(--primario);
     font-size: 2rem;
     font-weight: bold;

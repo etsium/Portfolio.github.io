@@ -1,16 +1,16 @@
-#formacion .contenedor-header{
+#formacion .contenedor__header{
     background-color: var(--secundario);
 }
 
-#formacion .contenedor-header h2{
+#formacion .contenedor__header h2{
     text-align: center;
 }
 
-#formacion .contenedor-principal{
+#formacion .contenedor__principal{
     justify-content: space-between;    
 }
 
-#formacion .contenedor-tarjeta{
+#formacion .contenedor__tarjeta{
     width: 30rem;
     height: 30rem;
 }

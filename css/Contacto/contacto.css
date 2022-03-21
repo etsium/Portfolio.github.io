@@ -1,26 +1,26 @@
-#contacto .contenedor-header{
+#contacto .contenedor__header{
     background-color: var(--secundario);
 }
 
-.contenedor-imagen img{  
+.contenedor__imagen img{  
     min-width: 100%;
     margin-top: 2rem;
 }
 
-.contenedor-formulario{
+.contenedor__formulario{
     width: 100%;
 }
 
-.formulario-contacto{
+.formulario__contacto{
     display: flex;
     flex-direction: column;
 }
 
-.contenedor-input{
+.contenedor__input{
     margin-bottom: 1rem;
 }
 
-.label-contacto{
+.contacto__label{
     display: flex;
     font-size: 1.3rem;
     flex-direction: column;
@@ -33,7 +33,7 @@
     transition: 500ms ease-in-out all;
 }
 
-.input-contacto{
+.contacto__input{
     border: none;
     background-color: var(--primario);
     color: var(--blanco);
@@ -42,20 +42,20 @@
     font-size: 2rem;
 }
 
-.input-contacto:focus{
+.contacto__input:focus{
     outline: none;
 }
 
-.label-contacto:focus-within{
+.contacto__label:focus-within{
     border-bottom: 0.7rem solid var(--resaltar);
     color: var(--resaltar);
 }
 
-.contenedor-input textarea{
+.contenedor__input textarea{
     min-height: 30rem;
 }
 
-.boton-contacto-enviar{
+.contacto__boton{
     background: var(--resaltar);
     border: none;
     color: var(--blanco);
@@ -66,7 +66,7 @@
     transition: 500ms ease-in-out all;
 }
 
-.boton-contacto-enviar:hover{
+.contacto__boton:hover{
     background-color: rgb(32, 158, 152);
     border: 0.2rem solid var(--blanco);
 
