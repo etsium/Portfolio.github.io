@@ -1,0 +1,8 @@
+#hobbie .contenedor-header h2{
+    text-align: center;
+}
+
+#hobbie .contenedor-principal{
+    justify-content: center;  
+    gap: 6rem;  
+}

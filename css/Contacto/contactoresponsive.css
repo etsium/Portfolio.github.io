@@ -1,0 +1,19 @@
+@media (max-width: 1108px){
+    #contacto .contenedor-imagen{
+        display: none;
+    }
+
+    #contacto h2{
+        text-align: center;
+    }
+    
+
+    #contacto textarea{
+        min-height: 20rem;
+        min-width: 20rem;
+    }
+
+    .label-contacto{
+        min-width: 100%;
+    }
+}

@@ -1,0 +1,41 @@
+#formacion .contenedor-header{
+    background-color: var(--secundario);
+}
+
+#formacion .contenedor-header h2{
+    text-align: center;
+}
+
+#formacion .contenedor-principal{
+    justify-content: space-between;    
+}
+
+#formacion .contenedor-tarjeta{
+    width: 30rem;
+    height: 30rem;
+}
+
+#formacion svg{
+    width: 80%;
+    cursor: pointer;
+}
+
+#formacion h3{
+    margin: 1rem 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+#formacion h4{
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#formacion h3, #formacion h4{
+    text-align: center;
+}
+
+#formacion a:hover h3, h4{
+    color: var(--blanco);
+}

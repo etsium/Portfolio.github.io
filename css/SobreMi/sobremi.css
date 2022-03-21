@@ -1,0 +1,12 @@
+#sobre-mi .contenedor-header{
+    background-color: var(--secundario);
+}
+
+#sobre-mi .contenedor-principal{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#sobre-mi p{
+    font-size: 1.8rem;
+}

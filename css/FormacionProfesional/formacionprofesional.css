@@ -1,0 +1,46 @@
+#proyecto h2{
+    text-align: center;
+}
+
+#proyecto img{
+    width: 100%;
+}
+
+#proyecto .contenedor-proyecto-info h2, h3{
+    text-align: left;
+    margin: 2rem 0;
+}
+
+.contenedor-proyecto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 4rem;
+}
+
+.contenedor-proyecto:nth-child(2n+1){
+    flex-direction: row-reverse;
+}
+
+.contenedor-proyecto-info{
+    width: 40%;
+}
+
+#proyecto button{
+    cursor: pointer;
+    background-color: transparent;
+    margin-right: 1rem;
+    width: 30%;
+    height: 3rem;
+    border: 0.2rem solid var(--resaltar);
+    color: var(--blanco);
+    transition: 1s ease-in-out all;
+    border-radius: 0.5rem;
+}
+
+
+#proyecto button:hover{  
+   background-color: var(--resaltar);
+   border: 0.2rem solid var(--resaltar);
+}

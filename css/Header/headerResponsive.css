@@ -1,0 +1,39 @@
+@media (max-width: 1100px){
+    
+    header .contenedor-principal{
+        width: 100%;
+    }
+
+    .contenedor-menu, .contenedor-menu ul{
+        text-align: center;
+    }
+
+    p{
+        padding: 0;
+    }
+
+    .contenedor-principal{
+        flex-direction: column;
+    }
+
+    .contenedor-texto{
+        flex-direction: column;
+        min-width: auto;
+    }
+
+    .contenedor-menu ul li:not(:last-child){
+        display: none;
+    }
+
+    .contenedor-redes ul{
+        gap: 1rem;
+    }
+
+    .contenedor-redes{
+        align-self: center;
+    }
+
+    #foto-perfil{
+        align-self: center;
+    }
+}
