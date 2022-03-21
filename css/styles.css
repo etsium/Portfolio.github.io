@@ -19,6 +19,7 @@ body{
     font-size: 1.5rem;
     color: var(--blanco);
     font-family: 'Source Code Pro', monospace;
+    overflow: overlay;
 }
 
 a{
@@ -38,3 +39,28 @@ h2{
 a:hover{
     color: var(--resaltar);
 }
+
+*::-webkit-scrollbar {
+    width: 10px;     /* Tamaño del scroll en vertical */
+    height: 10px;    /* Tamaño del scroll en horizontal */
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #676767;
+    border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: #777777;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+*::-webkit-scrollbar-thumb:active {
+    background-color: var(--resaltar);
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del track */
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
