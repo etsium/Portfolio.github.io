@@ -55,6 +55,34 @@
     min-height: 30rem;
 }
 
+.contacto__label__invalid{
+    color: var(--invalid);
+    border-bottom: 0.7rem solid var(--invalid);
+}
+
+.contacto__label__valid{
+    color: var(--resaltar);
+    border-bottom: 0.7rem solid var(--resaltar);
+}
+
+.contacto__a__invalid{
+    color: var(--invalid);
+}
+
+.contacto__a__valid{
+    color: var(--resaltar);
+}
+
+.input__message__error{
+    display: none;
+}
+
+.input__container__invalid .input__message__error{
+    color: var(--invalid);
+    display: block;
+    margin-top: 0.5rem;
+}
+
 .contacto__boton{
     background: var(--resaltar);
     border: none;

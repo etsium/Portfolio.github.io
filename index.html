@@ -441,25 +441,29 @@
                             <div class="contenedor__input">
                                 <label for="nombre" class="contacto__label">
                                     Nombre
-                                    <input type="text" class="contacto__input" id="nombre" placeholder="nombre completo" required >
+                                    <input type="text" class="contacto__input" id="nombre" placeholder="nombre completo" data-tipo="nombre" required >
+                                    <span class="input__message__error">Este campo no es valido</span>
                                 </label>
                             </div>
                             <div class="contenedor__input">
                                 <label for="email" class="contacto__label">
                                     Email
-                                    <input type="email" class="contacto__input" id="email" placeholder="ejemplo@dominio.com" required >
+                                    <input type="email" class="contacto__input" id="email" placeholder="ejemplo@dominio.com" data-tipo="email" required >
+                                    <span class="input__message__error">Este campo no es valido</span>
                                 </label>
                             </div>
                             <div class="contenedor__input">
                                 <label for="asunto" class="contacto__label">
                                     Asunto
-                                    <input type="text" class="contacto__input" id="asunto" placeholder="Asunto" required >
+                                    <input type="text" class="contacto__input" id="asunto" placeholder="Asunto" data-tipo="asunto" pattern="[\s\S]{6,15}" required>
+                                    <span class="input__message__error">Este campo no es valido</span>
                                 </label>
                             </div>
                             <div class="contenedor__input">
                                 <label for="mensaje" class="contacto__label" required >
                                     Mensaje
-                                    <textarea class="contacto__input" id="mensaje" placeholder="Porque quieres Contactarme ?" required></textarea>
+                                    <textarea class="contacto__input" id="mensaje" placeholder="Porque quieres Contactarme ?" data-tipo="mensaje" minlength="50" maxlength="600" required></textarea>
+                                    <span class="input__message__error">Este campo no es valido</span>
                                 </label>
                             </div>
                             <input class="contacto__boton" type="submit" value="Enviar Mensaje">
@@ -474,5 +478,7 @@
             <h3>Desarrollado por Juan Pablo Mota 2022</h3>
         </div>        
     </footer>
+
+    <script type="module" src="js/app.js"></script>
 </body>
 </html>
