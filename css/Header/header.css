@@ -70,10 +70,15 @@
     fill: var(--resaltar);
 }
 
-#foto-perfil{
-    border-radius: 15rem;
-    width: 30rem;
-    height: 30rem;
+.contenedor__principal__imagen__cartoon{
+    background: url("../../imagenes/perfilCartoon.jpg");
+    width: 15rem;
+    height: 15rem;
+    border: .3rem solid var(--resaltar);
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .contenedor__principal__imagen{
@@ -85,4 +90,23 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    left: 0px;
+}
+
+#imagen__perfil:hover{
+    cursor: pointer;
+}
+
+@keyframes cartoontocommon {
+    0%   {background: url("../../imagenes/perfilCartoon.jpg");background-size: 15rem; background-repeat: no-repeat;background-position: center}
+    50%   {background: url("../../imagenes/perfilCartoon.jpg");background-size: 3000rem; background-repeat: no-repeat;background-position: center}
+    50%  {background: url("../../imagenes/perfil.jpg");background-size: 3000rem; background-repeat: no-repeat;background-position: center}
+    100% {background: url("../../imagenes/perfil.jpg");background-size: 15rem; background-repeat: no-repeat;background-position: center}
+}
+
+@keyframes commontocartoon {
+    0%   {background: url("../../imagenes/perfil.jpg");background-size: 15rem; background-repeat: no-repeat;background-position: center}
+    50%   {background: url("../../imagenes/perfil.jpg");background-size: 3000rem; background-repeat: no-repeat;background-position: center}
+    50%  {background: url("../../imagenes/perfilCartoon.jpg");background-size: 3000rem; background-repeat: no-repeat;background-position: center}
+    100% {background: url("../../imagenes/perfilCartoon.jpg");background-size: 15rem; background-repeat: no-repeat;background-position: center}
 }
