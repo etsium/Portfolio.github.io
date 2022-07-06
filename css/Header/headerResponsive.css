@@ -6,6 +6,11 @@
 
     .contenedor__menu, .contenedor__menu ul{
         text-align: center;
+        flex-direction: column;
+    }
+
+    .contenedor__menu p{
+        display: none;
     }
 
     p{
@@ -13,28 +18,50 @@
     }
 
     .contenedor__principal{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .contenedor__texto{
-        flex-direction: column;
+        flex-direction: column-reverse;
         min-width: auto;
     }
 
-    .contenedor__menu ul li:not(:last-child){
-        display: none;
+    .contenedor__texto h1, h2{
+        font-size: 1.9rem;
+    }
+    .contenedor__texto h2{
+        font-size: 1.3rem!important;
     }
 
     .contenedor__redes ul{
         gap: 1rem;
+        flex-direction: column;
     }
 
     .contenedor__redes{
         align-self: center;
     }
 
+    .contenedor__redes a {
+        flex-direction: column-reverse;
+    }
+
     #foto__perfil{
         align-self: center;
     }
 
+    .menu__link{
+        justify-content: end;
+        font-size: 0;
+    }
+
+    nav{
+        background: var(--primario);
+        padding: .6rem;
+        border-radius: .5rem;
+        opacity: 80%;
+        position: fixed;
+        top: 30vh;
+        right: 0rem;
+    }
 }

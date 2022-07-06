@@ -38,6 +38,7 @@
     flex-direction: column;
     justify-content: center;
     align-content: space-around;
+    max-width: 80%;
 }
 
 .contenedor__resumen h1{
@@ -95,6 +96,23 @@
 
 #imagen__perfil:hover{
     cursor: pointer;
+}
+
+.menu__link{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.nav__fixed{
+    position: fixed;
+    top: 2rem;
+    right: 4rem;
+    padding: .6rem;
+    border-radius: .5rem;
+    border: .2rem solid var(--resaltar);
+    opacity: 80%;
+    background: var(--primario);
 }
 
 @keyframes cartoontocommon {
