@@ -5,8 +5,8 @@
     }
 
     .contenedor__menu, .contenedor__menu ul{
-        text-align: center;
         flex-direction: column;
+        text-align: center;
     }
 
     .contenedor__menu p{
@@ -61,7 +61,13 @@
         border-radius: .5rem;
         opacity: 80%;
         position: fixed;
-        top: 30vh;
+        top: 0rem;
         right: 0rem;
     }
+
+    .nav__fixed{
+        top: 0rem;
+        right: 0rem;
+    }
+
 }

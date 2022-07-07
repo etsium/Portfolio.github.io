@@ -1,14 +1,15 @@
 @media (max-width: 1100px){
-    .contenedor__proyecto, .contenedor__proyecto:nth-child(2n+1){
+    .contenedor__proyecto{
         flex-direction: column;
     }
+
 
     .contenedor__proyecto{
         gap: 0;
     }
     
-    .contenedor__proyecto h2 {
-        font-size: 2rem;
+    .contenedor__proyecto h2, h2 {
+        font-size: 1.3rem;
     }
 
     .contenedor__proyecto h3{
@@ -36,5 +37,9 @@
 
     #proyecto button{
         width: 100%;
+    }   
+
+    .slideshow-container{
+        max-width: 20rem;
     }
 }
