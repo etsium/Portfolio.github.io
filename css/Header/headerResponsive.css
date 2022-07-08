@@ -26,13 +26,6 @@
         min-width: auto;
     }
 
-    .contenedor__texto h1, h2{
-        font-size: 1.9rem;
-    }
-    .contenedor__texto h2{
-        font-size: 1.3rem!important;
-    }
-
     .contenedor__redes ul{
         gap: 1rem;
         flex-direction: column;

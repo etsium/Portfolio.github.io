@@ -41,13 +41,6 @@
     max-width: 80%;
 }
 
-.contenedor__resumen h1{
-    font-size: 4rem;
-}
-.contenedor__resumen h2{
-    font-size: 2.3rem;
-}
-
 .contenedor__redes ul{
     display: flex;
     gap: 10rem;

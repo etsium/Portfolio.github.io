@@ -2,18 +2,9 @@
     .contenedor__proyecto{
         flex-direction: column;
     }
-
-
+    
     .contenedor__proyecto{
         gap: 0;
-    }
-    
-    .contenedor__proyecto h2, h2 {
-        font-size: 1.3rem;
-    }
-
-    .contenedor__proyecto h3{
-        font-size: 1rem;
     }
 
     .contenedor__demo{
@@ -27,12 +18,17 @@
 
     .contenedor__proyecto__info a{
         margin-bottom: 2rem;
+        min-width: 25rem;
     }
 
     .contenedor__proyecto__info{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    #proyecto .contenedor__proyecto__info h2{
+        text-align: center;
     }
 
     #proyecto button{
