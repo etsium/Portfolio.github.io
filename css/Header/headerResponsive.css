@@ -19,6 +19,7 @@
 
     .contenedor__principal{
         flex-direction: column-reverse;
+        align-items: center;
     }
 
     .contenedor__texto{

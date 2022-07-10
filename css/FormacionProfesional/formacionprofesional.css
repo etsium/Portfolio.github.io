@@ -12,6 +12,7 @@ h3 {
     margin: 2rem 0;
 }
 
+
 .contenedor__proyecto {
     display: flex;
     justify-content: center;
@@ -26,13 +27,15 @@ h3 {
     min-width: 30rem;
 }
 
-
+.contenedor__proyecto__botonera {
+    display: flex;
+}
 
 #proyecto button {
     cursor: pointer;
     background-color: transparent;
     margin-right: 1rem;
-    width: 30%;
+    min-width: 14rem;
     height: 3rem;
     border: 0.2rem solid var(--resaltar);
     color: var(--blanco);
