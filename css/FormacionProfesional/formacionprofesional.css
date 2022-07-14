@@ -81,12 +81,12 @@ h3 {
 
   .prev{
     float: left;
-    left: -8rem;
+    left: -5rem;
   }
 
   .next {
     float: right;
-    right: -8rem;
+    right: -5rem;
     border-radius: 3px 0 0 3px;
   }
   
